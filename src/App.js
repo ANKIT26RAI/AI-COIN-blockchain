@@ -16,7 +16,7 @@ function App() {
   const [recipient, setRecipient] = useState('');
   const [amount, setAmount] = useState('');
 
-  const tokenContractAddress = '0x00A6e4FbeAdB0a5EdBd2c8D5505CF93077a9108d';
+  const tokenContractAddress = '0xb31EC04F3105fE99fB74e6334C44BE3C527FC872';
 
   const fetchTokenDetails = async () => {
     try {
